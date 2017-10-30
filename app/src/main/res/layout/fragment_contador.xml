@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/texto_contador"/>
+
+    <EditText
+        android:id="@+id/campo_Conteo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="0"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/boton_Contar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/texto_boton_contar"/>
+
+        <Button
+            android:id="@+id/boton_Reiniciar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/texto_boton_reiniciar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
